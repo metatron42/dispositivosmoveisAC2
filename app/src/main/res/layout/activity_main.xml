@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RA" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/editTextCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CEP" />
+
+    <EditText
+        android:id="@+id/editTextLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Logradouro"
+        android:enabled="true" />
+
+    <EditText
+        android:id="@+id/editTextComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento"
+        android:enabled="true" />
+
+    <EditText
+        android:id="@+id/editTextBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bairro"
+        android:enabled="true" />
+
+    <EditText
+        android:id="@+id/editTextCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:enabled="true" />
+
+    <EditText
+        android:id="@+id/editTextUf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UF"
+        android:enabled="true" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/buttonListAlunos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar Alunos"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
